@@ -1,0 +1,28 @@
+site_name: Shadow Agent (RingCentral) Changelog
+site_url: https://RSI.github.io/changelog/
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: blue
+      accent: blue
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.annotate
+    - content.tabs.link
+  font:
+    text: Roboto
+    code: Roboto Mono
+nav:
+  - Home: index.md
+  - "1.1.0 (Latest)": 1.1.0.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
