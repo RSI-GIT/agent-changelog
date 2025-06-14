@@ -2,7 +2,7 @@
 https://rsi-git.github.io/agent-changelog/
 
 ## Init
-pip install mkdocs-material
+pip install mkdocs-material  
 pip install ghp-import
 
 ## Localhost
