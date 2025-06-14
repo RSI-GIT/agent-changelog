@@ -1,5 +1,5 @@
 site_name: Shadow Agent (RingCentral) Changelog
-site_url: https://RSI.github.io/changelog/
+site_url: https://rsi-git.github.io/changelog/
 theme:
   name: material
   palette:
@@ -12,6 +12,7 @@ theme:
     - navigation.top
     - content.code.annotate
     - content.tabs.link
+  custom_dir: docs/overrides
   font:
     text: Roboto
     code: Roboto Mono
