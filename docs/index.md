@@ -12,7 +12,7 @@ Here you’ll find a chronological record of new features, improvements, and bug
   - 🐛 **Fixed** — Bug fixes and patches.
 
 ## 🏁 Browse all versions in the sidebar.
-- 👉 [View the latest release](./1.1.0.md)
+- 👉 [View the latest release](./1.1.1.md)
 - 🗂️ Browse all versions in the sidebar.
 
 Happy Coding! 🚀

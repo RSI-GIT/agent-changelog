@@ -9,5 +9,4 @@ pip install ghp-import
 mkdocs serve
 
 ## Deploy
-mkdocs build  
-ghp-import -n -p -f ./site
+mkdocs build; ghp-import -n -p -f ./site
