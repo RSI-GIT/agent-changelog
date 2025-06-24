@@ -11,7 +11,7 @@
         <link rel="canonical" href="https://rsi-git.github.io/changelog/1.1.1/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../1.1.2/">
       
       
         <link rel="next" href="../1.1.0/">
@@ -22,7 +22,7 @@
     
     
       
-        <title>1.1.1 (Upcoming) - Shadow Agent (RingCentral) Changelog</title>
+        <title>1.1.1 (Current) - Shadow Agent (RingCentral) Changelog</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#version-111-2025-06-22" class="md-skip">
+        <a href="#version-111-2025-06-23-current-release" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1.1.1 (Upcoming)
+              1.1.1 (Current)
             
           </span>
         </div>
@@ -237,6 +237,28 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.1.2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1.1.1 (Pending)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -254,7 +276,7 @@
   
   
   <span class="md-ellipsis">
-    1.1.1 (Upcoming)
+    1.1.1 (Current)
     
   </span>
   
@@ -267,7 +289,7 @@
   
   
   <span class="md-ellipsis">
-    1.1.1 (Upcoming)
+    1.1.1 (Current)
     
   </span>
   
@@ -293,15 +315,6 @@
   <a href="#added" class="md-nav__link">
     <span class="md-ellipsis">
       ✨ Added
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#changed" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ Changed
     </span>
   </a>
   
@@ -336,7 +349,7 @@
   
   
   <span class="md-ellipsis">
-    1.1.0 (Current)
+    1.1.0
     
   </span>
   
@@ -382,15 +395,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#changed" class="md-nav__link">
-    <span class="md-ellipsis">
-      ⚙️ Changed
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#fixed" class="md-nav__link">
     <span class="md-ellipsis">
       🐛 Fixed
@@ -415,22 +419,20 @@
 
 
 
-<h1 id="version-111-2025-06-22">📦 Version 1.1.1 — 2025-06-22<a class="headerlink" href="#version-111-2025-06-22" title="Permanent link">&para;</a></h1>
+<h1 id="version-111-2025-06-23-current-release">📦 Version 1.1.1 — 2025-06-23 (Current Release)<a class="headerlink" href="#version-111-2025-06-23-current-release" title="Permanent link">&para;</a></h1>
 <h2 id="added">✨ Added<a class="headerlink" href="#added" title="Permanent link">&para;</a></h2>
 <ul>
-<li><code>restrictToDepartment</code> feature flag <strong><em>SAS-213</em></strong></li>
-<li>Timed presence without switchback option <strong><em>SAS-216</em></strong></li>
-</ul>
-<h2 id="changed">⚙️ Changed<a class="headerlink" href="#changed" title="Permanent link">&para;</a></h2>
-<ul>
-<li>ACW is no longer triggered if the call ends on a transfer <strong><em>SAS-246</em></strong></li>
+<li>Demo playback feature for admin portal</li>
+<li>Ability to save recordings of demo events</li>
+<li>Cleanup for hung calls on demo event playback</li>
+<li>Queue presences have independent loading circles</li>
+<li>Garbage collector inside of WebSocket handler to destroy bad user presences</li>
 </ul>
 <h2 id="fixed">🐛 Fixed<a class="headerlink" href="#fixed" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Hung user states</li>
-<li>Translate recursive refresh loop <strong><em>SAS-194</em></strong></li>
+<li>Translate recursive refresh loop <strong><em>SAS-250</em></strong></li>
 <li>Custom presence being selected <strong><em>SAS-244</em></strong></li>
-<li>Wrap timers not showing if invoked by ACW <strong><em>SAS-247</em></strong></li>
+<li>General presence change improvements</li>
 </ul>
 
 
