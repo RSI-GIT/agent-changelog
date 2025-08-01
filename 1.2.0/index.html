@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://rsi-git.github.io/changelog/1.1.2/">
+        <link rel="canonical" href="https://rsi-git.github.io/changelog/1.2.0/">
       
       
         <link rel="prev" href="..">
@@ -18,15 +18,15 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.16">
     
     
       
-        <title>1.1.2 (Pending) - Shadow Agent (RingCentral) Changelog</title>
+        <title>1.2.0 (Current) - Shadow Agent (RingCentral) Changelog</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.7e37652d.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#version-111-2025-pending-release" class="md-skip">
+        <a href="#version-120-2025-08-01" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1.1.2 (Pending)
+              1.2.0 (Current)
             
           </span>
         </div>
@@ -254,7 +254,7 @@
   
   
   <span class="md-ellipsis">
-    1.1.2 (Pending)
+    1.2.0 (Current)
     
   </span>
   
@@ -267,7 +267,7 @@
   
   
   <span class="md-ellipsis">
-    1.1.2 (Pending)
+    1.2.0 (Current)
     
   </span>
   
@@ -336,7 +336,7 @@
   
   
   <span class="md-ellipsis">
-    1.1.1 (Current)
+    1.1.1
     
   </span>
   
@@ -437,7 +437,7 @@
 
 
 
-<h1 id="version-111-2025-pending-release">📦 Version 1.1.1 — 2025-(Pending Release)<a class="headerlink" href="#version-111-2025-pending-release" title="Permanent link">&para;</a></h1>
+<h1 id="version-120-2025-08-01">📦 Version 1.2.0 — 2025-08-01<a class="headerlink" href="#version-120-2025-08-01" title="Permanent link">&para;</a></h1>
 <h2 id="added">✨ Added<a class="headerlink" href="#added" title="Permanent link">&para;</a></h2>
 <ul>
 <li><code>restrictToDepartment</code> feature flag <strong><em>SAS-203</em></strong></li>
@@ -446,15 +446,32 @@
 <li>New Portal Tab <strong><em>SAS-223</em></strong></li>
 <li>Expected wait time feature <strong><em>SAS-256</em></strong></li>
 <li>Dialer visbility changes &amp; resize coordinates <strong><em>SAS-254 &amp; SAS-139</em></strong></li>
-<li>Save default tab <strong><em>SAS-233</em></strong></li>
+<li>Default tab <strong><em>SAS-233 &amp; SAS-263</em></strong></li>
+<li>Scheduled Auto-Logoff <strong><em>SAS-279</em></strong></li>
+<li>Old websocket is removed <strong><em>SAS-302</em></strong></li>
+<li>Expected wait time has been given a new UI and is working as intended <strong><em>SAS-256</em></strong></li>
+<li>Overnight updates now retry cleanly and display a retry tag <strong><em>SAS-249</em></strong></li>
 </ul>
 <h2 id="changed">⚙️ Changed<a class="headerlink" href="#changed" title="Permanent link">&para;</a></h2>
 <ul>
 <li>ACW is no longer triggered if the call ends on a transfer <strong><em>SAS-246</em></strong></li>
+<li>Language change text has been adjusted to indicate english is default <strong><em>SAS-292</em></strong></li>
+<li>Seat limits are now based on the last 30 days <strong><em>SAS-293</em></strong></li>
+<li>New portal now respects feature flags <strong><em>SAS-294 &amp; SAS-295 &amp; SAS-296</em></strong></li>
+<li>accountDisabled is now in the default list <strong><em>SAS-297</em></strong></li>
+<li>'telus' flag now applies digitalUser flag <strong><em>SAS-298</em></strong></li>
+<li>'us-west-1' is now the default install region <strong><em>SAS-299</em></strong></li>
+<li>'logout' button in profile changed to 'sign out of shadow agent' <strong><em>SAS-303</em></strong></li>
 </ul>
 <h2 id="fixed">🐛 Fixed<a class="headerlink" href="#fixed" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Wrap timers not showing if invoked by ACW <strong><em>SAS-247</em></strong></li>
+<li>Showing internal calls incorrectly on refresh <strong><em>SAS-98</em></strong></li>
+<li>Clear filter button shows up before filters <strong><em>SAS-195</em></strong></li>
+<li>Download button for leaderboard fixed <strong><em>SAS-275</em></strong></li>
+<li>Filters are now accurate in queue leaderboard <strong><em>SAS-274</em></strong></li>
+<li>Implemented a fix for ringcentral access tokens expiring early <strong><em>SAS-308</em></strong></li>
+<li>Implemented a fix for overflow calls showing as answered <strong><em>SAS-309</em></strong></li>
 </ul>
 
 
@@ -509,7 +526,7 @@
       <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "content.code.annotate", "content.tabs.link"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../assets/javascripts/bundle.50899def.min.js"></script>
       
     
   </body>
